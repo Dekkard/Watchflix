@@ -1,0 +1,247 @@
+.cs-body-dark{
+    background-color: rgb(34, 34, 34);
+}
+.cs-body-dark p{
+    color:rgb(255,255,255);
+}
+.cs-body-light{
+    background-color: rgb(214, 214, 214);
+}
+.cs-body-light p{
+    color:rgb(0, 0, 0);
+}
+.fa-red{
+    color: rgb(223, 0, 0);
+}
+.navbar{
+    width: 100%;
+    z-index: 100;
+}
+.navbar-fixed{
+    position: fixed;
+}
+.bg-custom{
+    background-color: rgb(17, 17, 17);
+}
+.brand-text{
+    padding: 0px 15px;
+    font-size: 2.2em;
+    color: rgb(190, 0, 0);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 3px;
+}
+.cs-navbar{
+    max-width: fit-content;
+}
+.navbar-item{
+    font-size: 1.1em;
+}
+.main-pad{
+    padding-top: 78.8px;
+}
+.landing{
+    position: absolute;
+    width: 450px;
+    bottom: 75px;
+    left: 5%;
+}
+.landing-board{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.bg-landing-board{
+    background: linear-gradient(to left, transparent 50%, rgb(0,0,0) 70%);
+}
+/*
+background-image: radial-gradient(ellipse closest-side at left 70% top 50%,transparent 70%, rgb(0,0,0));
+
+background: linear-gradient(to left, transparent, rgb(0,0,0) 70%),
+    linear-gradient(to top, transparent 70%, rgb(0,0,0)),
+    linear-gradient(to bottom, transparent 70%, rgb(0,0,0));
+background: linear-gradient(to left, transparent 50%, rgb(0,0,0) 70%),
+    linear-gradient(to top, transparent 90%, rgb(0,0,0)),
+    linear-gradient(to bottom, transparent 90%, rgb(0,0,0));
+*/
+.lb-fixed-height{
+    height: 425px;
+}
+.lb-fit-height{
+    height: fit-content;
+}
+.landing-img{
+    position: relative;
+    z-index: -2;
+}
+.li-width-lg{
+    width: 70%;
+    left: 30%;
+}
+.li-width-sm{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 40% 0%;
+}
+.main-img{
+    position: relative;
+    z-index: -10;
+}
+.cs-flex{
+    display: flex;
+}
+.cs-block{
+    display: block;
+    padding: 15px 0px;
+}
+.cat-title{
+    padding: 0px 15px;
+    font-size: 1.5em;
+}
+.thumbnails{
+    position: relative;
+}
+/* .thumbnails-control > button{
+    width: 100%;
+} */
+.thumbnails-control{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    font-size: 2em;
+    padding-left: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+.thumbnails-contents{
+    overflow: hidden;
+}
+.thumbnails-contents > div {
+    margin: 0px 5px;
+    float: left;
+}
+.thumbnails-image{
+    width: 300px;
+    height: 200px;
+}
+.thumbnails-image > button:hover {
+    background-color: rgb(53, 53, 53);
+}
+.thumb-content > button:hover,
+.cs-blackbox-2:hover {
+    background-color: rgb(53, 53, 53);
+}
+.rating{
+    max-width: inherit;
+    display: inline;
+}
+.rating > span{
+    padding: 5px 2px;
+}
+.cs-info{
+    padding: 15px 0;
+    display: block;
+}
+.cs-info > p, span{
+    float: left;
+    margin-bottom: 0;
+}
+.cs-info > p{
+    margin: 0px 15px;
+}
+.main-title{
+    font-size: 2em;
+}
+.predictions{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.description{
+    font-size: 0.9em;
+    color: rgb(223, 223, 223);
+    text-align: justify;
+    text-indent: 2em;
+}
+@keyframes blink{
+    0% {background-color: rgb(31, 31, 31);}
+    5% {background-color: rgb(92, 92, 92);}
+    10% {background-color: rgb(31, 31, 31);}
+}
+.cs-blackbox{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(43, 43, 43);
+}
+.cs-blackbox-4{
+    width: 40vw;
+    min-height: 400px;
+    margin: 0px 50px;
+    background-color: rgb(43, 43, 43);
+}
+.cs-blackbox-2{
+    min-width: 300px;
+    min-height: 200px;
+    background-color: rgb(43, 43, 43);
+    border: 0;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.rel{
+    position: relative;
+}
+.btn-circle-sm{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+    border: 0;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.btn-lg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.btn-lg:hover {
+    background-color: rgb(53, 53, 53);
+}
+.btn-pos{
+    position: absolute;
+    width: -moz-available;
+    left: 5%;
+    bottom: 10px;
+    z-index: 10;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+.main > .btn-pos{
+    opacity: 100;
+    visibility: visible;
+}
+.cs-blackbox-2:hover + .btn-pos,
+.thumbnails-image:hover + .btn-pos,
+.btn-pos:hover
+{
+    opacity: 100;
+    visibility: visible;
+}
+.btn-circle-sm:hover{
+    background-color: rgb(95, 95, 95);
+}
